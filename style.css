@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;600&display=swap');
 *,
 *::before,
 *::after {
@@ -8,12 +8,18 @@
 }
 
 
-hmtl {
-  font-family: 'Saira', sans-serif;
+body {
+  font-family: 'Saira';
+  width: 100%;
+  margin: 0;
 }
 
 .hero {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.3) 100%), url(images/hero-img.png);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.09) 0%, rgba(0, 0, 0, 0.3) 100%), url(images/hero-img.png) no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
   height: 100vh;
   color: white;
   left: 0px;
@@ -21,6 +27,9 @@ hmtl {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
 }
 
 .hero h1 {
@@ -30,9 +39,76 @@ hmtl {
   text-align: center;
 }
 
+.shopbtn {
+  margin-top: 65px;
+  width: 257px;
+  height: 62px;
+  background-color: rgba(226,226,226,0.6);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  border: none;
+  color: white;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+strong {
+  font-size: 40px;
+}
+
+.table {
+  height: 180px;
+  width: 100%;
+  background-color: #286F6C;
+  position: absolute;
+  border-radius: 20px;
+  top: 640px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 160px;
+  padding-left: 160px;
+  align-items: center;
+  color: white;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.table p:nth-child(1) {
+  border-right: 1px solid white;
+  padding-right: 100px;
+}
+.table p:nth-child(2) {
+  border-right: 1px solid white;
+  padding-right: 100px;
+}
+.table p:nth-child(3) {
+  border-right: 1px solid white;
+  padding-right: 100px;
+}
+
+.table p {
+  text-align: center;
+  padding-left: -100px;
+}
+
+.hero p {
+  padding: 0;
+  margin-top: 30px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
 .upmenu {
   position: absolute;
-  width: 100vw;
+  width: 95vw;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -57,7 +133,7 @@ hmtl {
   text-decoration: none;
   color: white;
   padding-right: 30px;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 25.18px;
 }
