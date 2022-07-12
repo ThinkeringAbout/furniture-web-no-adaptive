@@ -282,3 +282,59 @@ i {
 .second-img {
   justify-content: center;
 }
+
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.products-content {
+  width: 40%;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+
+.products-content h2 {
+  margin-bottom: 10px;
+}
+
+.goods {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.goods img {
+  width: 170px;
+  height: 170px;
+}
+
+.good-card {
+  text-align: left;
+  margin-bottom: 30px;
+  width: 290px;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cardimg {
+  padding: 20px;
+  border: 1px solid #e7e6e6;
+  border-radius: 10px;
+}
+
+.cross-price {
+  font-size: 13px;
+  text-decoration: line-through;
+  color: grey;
+}
