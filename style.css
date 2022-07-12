@@ -60,6 +60,7 @@ strong {
   font-size: 40px;
 }
 
+
 .newstuff {
   display: flex;
   flex-direction: row;
@@ -67,6 +68,7 @@ strong {
   align-items: stretch;
   padding-left: 100px;
   margin-top: 160px;
+  padding-bottom: 50px;
 }
 
 .newstuff h2 {
@@ -269,4 +271,14 @@ i {
   font-size: 16px;
   font-weight: 600;
   line-height: 25.18px;
+}
+
+.second {
+  width: 598px;
+  height: 399px;
+  padding-right: 10px;
+}
+
+.second-img {
+  justify-content: center;
 }
